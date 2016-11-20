@@ -4,9 +4,366 @@ body{
 	font-weight: normal;
 	line-height: 24px;
 	color: #000;
+	min-width: 960px;
 }
 h1,h2{
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;	
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*=================HEADER=====================*/
+.main-header{
+	width:100%;	
+}
+.container{
+	width:940px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin:0 auto;
+}
+.header-top{
+	outline:1px solid #fff;	
+	background-color:#293449;
+}
+.header-top a{
+	float:left;
+}
+.header-top input{
+	float:left;
+}
+.header-top ul{
+	float:right;
+	list-style: none;
+}
+.header-top ul li{
+	display:inline-block;
+}
+.header-bottom{
+	background-color: #f1f5f7;
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+.header-bottom-top .text-logo{
+	outline: 1px solid red;
+	width:300px;		
+	margin-right: 20px;
+	float:left;
+}
+.header-bottom-top .header-contacts{
+	outline: 1px solid red;
+	width:300px;		
+	margin-right: 20px;
+	float:left;
+}
+.header-bottom-top .login{
+	outline: 1px solid red;
+	width:300px;
+	float:right;	
+}
+nav{
+	background: #32425c;	
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;	
+}
+
+/*==================SECTION ITEMS=============================*/
+section.items{	
+	padding-top:60px;
+	padding-bottom: 50px;
+}
+.item-materials{
+	outline: 1px solid green;
+	width:300px;
+	float:left;
+	margin-right: 20px;
+}
+.item-tool{
+	outline: 1px solid green;
+	width:300px;
+	float:left;
+	margin-right: 20px;
+}
+.item-technique{
+	outline: 1px solid green;
+	width:300px;
+	float:left;
+}
+.slider{
+	outline: 1px solid green;
+	width:620px;
+	float:left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.item-discount{
+	outline: 1px solid green;
+	width:300px;
+	float:right;
+	margin-top: 20px;
+}
+.item-delivery{
+	outline: 1px solid green;
+	width:300px;
+	float:right;
+	margin-top: 20px;
+}
+
+/*======================POPULAR GOODS======================*/
+.popular-goods{
+	outline: 1px solid blue;
+}
+.popular-goods-header{
+	background: #f7f3ec;
+	padding:25px;	
+}
+.popular-goods-header h2{
+	outline: 1px solid blue;
+	width:300px;
+	float: left;
+}
+.popular-goods-header a{
+	outline: 1px solid blue;
+	display: block;
+	width:250px;
+	float: right;
+}
+.goods-item{
+	outline: 1px solid blue;
+	display:inline-block;
+	margin:20px 15px 20px 0;
+	width:220px;
+	vertical-align: top;	
+}
+.popular-goods-catalog .goods-item:nth-child(4n){
+	margin-right: 0;
+}
+.goods-item img{
+	display: block;	
+}
+
+/*=======================POPULAR MANUFACTURERS===================*/
+.popular-manufacturers{
+	outline: 1px solid orange;
+	padding-bottom: 85px;
+}
+.popular-manufacturers-header{
+	background: #f7f3ec;
+	padding:25px;
+}
+.popular-manufacturers-header h2{
+	outline: 1px solid blue;
+	width:300px;
+	float: left;
+}
+.popular-manufacturers-header a{
+	outline: 1px solid blue;
+	display: block;
+	width:250px;
+	float: right;
+}
+.popular-manufacturers ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.popular-manufacturers ul li{	
+	outline: 1px solid orange;
+	margin-right: 20px;
+	margin-top: 20px;
+	width:220px;
+	height:140px;
+	float:left;
+}
+.popular-manufacturers ul li:nth-child(4),
+.popular-manufacturers ul li:nth-child(8)
+{
+	margin-right: 0;
+}
+
+/*=====================SECTION SERVICES===========================*/
+section.services{
+	background-color:#f2f6f8;
+	padding-top: 65px;
+	padding-bottom: 100px;
+}
+.navigation{
+	outline: 1px solid black;
+	width:300px;
+	float:left;
+	margin-right: 20px;
+}
+.services-delivery{
+	outline: 1px solid black;
+	width:300px;
+	float:left;
+	margin-right: 20px;
+}
+
+/*===========================SECTION COMPANY-CONTACTS====================*/
+.company-contacts{
+	outline: 1px solid red;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.company{
+	outline: 1px solid red;
+	width:620px;
+	float:left;
+	margin-right: 20px;
+}
+.contacts{
+	outline: 1px solid red;
+	width:300px;
+	float: right;
+}
+
+/*======================FOOTER==========================*/
+footer{
+	background-color: #32425c;
+}
+.footer-top a.small-logo-footer{
+	outline: 1px solid #fff;
+	display:block;
+	padding:20px 40px;
+	float:left;
+}
+.footer-top ul{
+	outline: 1px solid #fff;
+	float:right;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.footer-top ul li{
+	display:inline-block;
+}
+.footer-middle{
+	padding-bottom: 55px;
+}
+.footer-middle address{
+	outline: 1px solid #fff;
+	width:380px;
+	float:left;
+	margin-right: 10px;
+}
+.footer-middle ul{
+	outline: 1px solid #fff;
+	float:right;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.footer-middle ul li{
+	display:inline-block;
+}
+section.footer{
+	background-color: #293449;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+section.footer p{
+	outline: 1px solid #fff;
+	width:380px;
+	float:left;
+	margin-right: 10px;
+}
+section.footer .social{
+	outline: 1px solid #fff;
+	width:230px;
+	float:left;
+	margin-right: 20px;
+}
+section.footer .feedback{
+	outline: 1px solid #fff;
+	width:140px;
+	float:left;
+	margin-right: 20px;	
+}
+section.footer .feedback a{
+	font-size: 16px;
+}
+section.footer .developer{
+	outline: 1px solid #fff;
+	width:140px;
+	float:right;	
+}
+
+/*===================PAGE INNER=============================*/
+
+/*=====================HEADER========================*/
+.header-bottom-top .person-information{
+	outline: 1px solid red;
+	woutline: 1px solid red;idth:300px;
+	float:right;
+}
+.header-bottom-top .person-information ul li{	
+	display:inline-block;
+}
+
+/*=====================BREAD-CRUMBS================*/
+ul.bread-crumbs{
+	outline: 1px solid red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style: none;	
+}
+ul.bread-crumbs li{
+	display: inline-block;
+}
+h1.inner{
+	background-color: #f2f6f8;
+	padding:30px 0 30px 30px;
+}
+/*======================ASIDE======================*/
+aside{
+	outline: 1px solid blue;
+	width:220px;
+	float:left;
+	margin-right: 20px;
+}
+
+/*===============SECTION GOODS======================*/
+section.goods{
+	outline: 1px solid blue;
+	width:700px;
+	float:right;
+	padding-bottom: 60px;
+}
+section.goods h4{
+	width:220px;
+	float:left;
+	margin-right: 20px;
+}
+section.goods .sorting ul{
+	list-style: none;
+	float:left;
+	margin-right: 20px;
+}
+section.goods ul li{
+	display: inline-block;
+}
+section.goods .arrows{
+	width:60px;
+	float:right;
+}
+.catalog .goods-item:nth-child(3n){
+	margin-right: 0;
+}
+
+/*======================SECTION COUPLE_WORDS====================*/
+section.couple-words{
+	background-color: #f2f6f8;
+	padding-top: 65px;
+	padding-bottom: 70px;
 }
